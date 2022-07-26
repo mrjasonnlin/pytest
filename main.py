@@ -32,3 +32,30 @@ import random
 #隨機取得亂數
 #data=random.random() #0~1之間隨機取得亂數
 #print(data)
+#資料分析(要安裝安裝包pandas)
+#import pandas as pd
+#data=pd.DataFrame({
+#    "name":["Amy", "Bob", "Charles"],
+#    "salary":[30000, 50000, 40000]
+#}, index=["a", "b", "c"])#index索引，不寫內建是0,1,2,3
+#print(data)
+#print("====================")
+#print("資料數量", data.size)
+#print("資料形狀 (列，欄)", data.shape)
+#print("資料索引", data.index)
+#取得列資料
+#print("取得第二列", data.iloc[1], sep="\n")
+#print("====================")
+#print("取得第C列", data.loc["c"], sep="\n")
+#取得欄位資料
+#print("取得name欄位", data["name"], sep="\n")
+#names=data["name"]
+#print("把name全部轉大寫", names.str.upper(), sep="\n")
+#計算薪水的平均值
+#salaries=data["salary"]
+#print("薪水的平均值", salaries.mean(), sep="\n")
+#建立新的欄位
+#data["revenue"]=[500000, 400000, 300000]
+#data["rank"]=pd.Series([3, 6, 1], index=["a", "b", "c"])
+#data["cp"]=data["revenue"]/data["salary"]
+#print(data)
