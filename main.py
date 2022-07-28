@@ -59,3 +59,14 @@ import random
 #data["rank"]=pd.Series([3, 6, 1], index=["a", "b", "c"])
 #data["cp"]=data["revenue"]/data["salary"]
 #print(data)
+#定義裝飾器
+#def myDeco(cb):
+#    def run():
+#        print("裝飾器中的程式碼")
+#        cb()
+#    return run
+#使用裝飾器
+#@myDeco
+#def test():
+#    print("普通函式的程式碼")
+#test()
